@@ -14,15 +14,7 @@ Most of the commits in this repository correspond to videos in the program.
 npm install
 ```
 
-3a. To access the starter code, checkout the `starter` branch, then start the application.
-
-```
-git checkout starter
-
-npm start
-```
-
-3b. Alternatively, to access the finished project, simply start the application.
+3. Simply start the application.
 
 ```
 npm start
