@@ -53,7 +53,8 @@ test("deletes contact correctly", () => {
     <ListContacts contacts={contacts} onDeleteContact={onDeleteContact} />
   );
   const johnDoe = getByText("John Doe");
-  const removeButton = within(johnDoe.parentElement).getByText("Remove");
+  const removeButton =
+    johnDoe.parentElement.parentElement.querySelector(".contact-remove");
   fireEvent.click(removeButton);
   expect(onDeleteContact).toHaveBeenCalledTimes(1);
 });
