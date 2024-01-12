@@ -2,8 +2,6 @@
 
 This repo is a code-along with the in-course project in the React Nanodegree program.
 
-Most of the commits in this repository correspond to videos in the program.
-
 ## Project Setup
 
 1. Clone the project.
@@ -22,11 +20,9 @@ npm start
 
 Note that the Contacts app server must also be running to support the app's API calls.
 
-## Contributing
+## Backend Server
 
-Because this is a code-along project and the commits correspond to specific videos in the program, we will not be accepting pull requests.
-
-If you believe that a major problem exists in the code, please open an issue to discuss the problem and potential resolution.
+The backend server for this in-class project can be found [here](https://github.com/udacity/reactnd-contacts-server).
 
 ## License
 
